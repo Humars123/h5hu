@@ -1,0 +1,477 @@
+/* line 5, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 27, ../sass/index.scss */
+.swiper-container {
+  width: 320px;
+  height: 504px;
+  position: relative;
+}
+/* line 31, ../sass/index.scss */
+.swiper-container .swiper-wrapper {
+  width: 320px;
+  height: 504px;
+}
+/* line 34, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  background: url(../../img/big-bg.webp);
+  position: relative;
+}
+/* line 41, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .box1 {
+  width: 312px;
+  height: 501px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../../img/mid-bg.webp) no-repeat center/100% auto;
+  -moz-animation: s1box1 1s linear 0s;
+  -webkit-animation: s1box1 1s linear 0s;
+  animation: s1box1 1s linear 0s;
+}
+@-moz-keyframes s1box1 {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@-webkit-keyframes s1box1 {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes s1box1 {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/* line 55, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .box2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 271px;
+  height: 438px;
+  background: #000;
+  background: url(../../img/sm-bg.webp) no-repeat center/100% auto;
+  -moz-animation: s1box2 1s linear 0s;
+  -webkit-animation: s1box2 1s linear 0s;
+  animation: s1box2 1s linear 0s;
+}
+@-moz-keyframes s1box2 {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@-webkit-keyframes s1box2 {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes s1box2 {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/* line 69, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .box3 {
+  width: 249px;
+  height: 414px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../../img/border-1.webp) no-repeat center/100% auto;
+}
+/* line 75, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .box4 {
+  width: 261px;
+  height: 508px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: url(../../img/8d40b043-a164-4cab-87a5-123c8d33e478.webp) no-repeat center/100% auto;
+}
+/* line 80, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .text1 {
+  width: 281px;
+  height: 16px;
+  top: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffc786;
+  font-size: 14px;
+}
+/* line 89, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .text2 {
+  width: 125px;
+  height: 72px;
+  position: absolute;
+  left: 70px;
+  top: 90px;
+  color: #ffc786;
+}
+/* line 97, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .nao, .swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .yuan, .swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .xiao {
+  position: absolute;
+  right: 15px;
+  width: 143px;
+  height: 122px;
+}
+/* line 103, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .nao {
+  background: url(../../img/text-Nao.webp) no-repeat center/100% auto;
+  top: 70px;
+}
+/* line 107, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .yuan {
+  top: 170px;
+  right: 10px;
+  background: url(../../img/text-Yuan.webp) no-repeat center/100% auto;
+}
+/* line 114, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .xiao {
+  top: 300px;
+  right: 10px;
+  background: url(../../img/text-Xiao.webp) no-repeat center/100% auto;
+}
+/* line 120, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .shu {
+  width: 25px;
+  height: 158px;
+  position: absolute;
+  left: 110px;
+  top: 140px;
+  text-align: center;
+  color: #ffc786;
+  padding-top: 30px;
+  box-sizing: border-box;
+  background: url(../../img/border-text.webp) no-repeat center/100% auto;
+}
+/* line 132, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .yuan-pic {
+  width: 253px;
+  height: 254px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: url(../../img/Pic-yuanxiao.webp) no-repeat center/100% auto;
+}
+/* line 141, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .lightl, .swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .lightr {
+  width: 141px;
+  height: 298px;
+  background: #000;
+  position: absolute;
+  z-index: 21;
+  opacity: 0;
+  background: url(../../img/DL1.webp) no-repeat center/100% auto;
+}
+/* line 148, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .lightl {
+  left: -50px;
+  -moz-animation: lightl 1.5s linear 1s forwards;
+  -webkit-animation: lightl 1.5s linear 1s forwards;
+  animation: lightl 1.5s linear 1s forwards;
+}
+@-moz-keyframes lightl {
+  0% {
+    top: -500px;
+    opacity: 1;
+  }
+  40% {
+    top: -70px;
+    opacity: 1;
+  }
+  60% {
+    top: -130px;
+    opacity: 1;
+  }
+  100% {
+    top: -100px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes lightl {
+  0% {
+    top: -500px;
+    opacity: 1;
+  }
+  40% {
+    top: -70px;
+    opacity: 1;
+  }
+  60% {
+    top: -130px;
+    opacity: 1;
+  }
+  100% {
+    top: -100px;
+    opacity: 1;
+  }
+}
+@keyframes lightl {
+  0% {
+    top: -500px;
+    opacity: 1;
+  }
+  40% {
+    top: -70px;
+    opacity: 1;
+  }
+  60% {
+    top: -130px;
+    opacity: 1;
+  }
+  100% {
+    top: -100px;
+    opacity: 1;
+  }
+}
+/* line 174, ../sass/index.scss */
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .lightr {
+  right: -35px;
+  -moz-animation: lightr 1.5s linear 0.5s forwards;
+  -webkit-animation: lightr 1.5s linear 0.5s forwards;
+  animation: lightr 1.5s linear 0.5s forwards;
+}
+@-moz-keyframes lightr {
+  0% {
+    opacity: 1;
+    top: -100px;
+  }
+  40% {
+    opacity: 1;
+    top: -120px;
+  }
+  60% {
+    opacity: 1;
+    top: -200px;
+  }
+  100% {
+    opacity: 1;
+    top: -150px;
+  }
+}
+@-webkit-keyframes lightr {
+  0% {
+    opacity: 1;
+    top: -100px;
+  }
+  40% {
+    opacity: 1;
+    top: -120px;
+  }
+  60% {
+    opacity: 1;
+    top: -200px;
+  }
+  100% {
+    opacity: 1;
+    top: -150px;
+  }
+}
+@keyframes lightr {
+  0% {
+    opacity: 1;
+    top: -100px;
+  }
+  40% {
+    opacity: 1;
+    top: -120px;
+  }
+  60% {
+    opacity: 1;
+    top: -200px;
+  }
+  100% {
+    opacity: 1;
+    top: -150px;
+  }
+}
+/* line 203, ../sass/index.scss */
+.swiper-container .jiantou {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 20px;
+  height: 15px;
+  z-index: 9;
+  bottom: 30px;
+  background: url(../../img/jiantou.png) no-repeat center/100% auto;
+  -moz-animation: jtmove 1.5s ease 0s infinite;
+  -webkit-animation: jtmove 1.5s ease 0s infinite;
+  animation: jtmove 1.5s ease 0s infinite;
+}
+@-moz-keyframes jtmove {
+  0% {
+    bottom: 30px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 60px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes jtmove {
+  0% {
+    bottom: 30px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 60px;
+    opacity: 0;
+  }
+}
+@keyframes jtmove {
+  0% {
+    bottom: 30px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 60px;
+    opacity: 0;
+  }
+}
+/* line 222, ../sass/index.scss */
+.swiper-container .music {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 20;
+  background: url(../../img/music.png) no-repeat center/100% auto;
+  -moz-animation: mumove 1s linear 0s infinite;
+  -webkit-animation: mumove 1s linear 0s infinite;
+  animation: mumove 1s linear 0s infinite;
+}
+@-moz-keyframes mumove {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes mumove {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes mumove {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* line 240, ../sass/index.scss */
+.swiper-container .music .mu-img {
+  width: 30px;
+  height: 30px;
+  z-index: 22;
+  background: url(../../img/piao.gif) no-repeat center/100% auto;
+}
